@@ -1,5 +1,7 @@
+import com.IanG.BancoApp.features.customer.presentation.CustomerMain;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        CustomerMain.CustomerMenu(args);
     }
 }
